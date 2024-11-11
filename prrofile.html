@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/js/bootstrap.bundle.js">
+    <link rel="stylesheet" href="prrofile.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Profile</title>
+</head>
+<body>
+       <!-- Nav Bar -->
+       <nav class="w-100 d-flex justify-content-center position-fixed top-0">
+        <div class="nav-cont h-100 d-flex align-items-center">
+             <button class="nav-btn1 btn h-100">
+                 <img src="freelancer-logo-light.svg" alt="img">
+             </button>
+             <div class="scd-btn h-100 d-flex ms-2">
+                 <button class="nav-btn2 btn d-flex align-items-center justify-content-evenly d-lg-flex d-md-flex d-none position-relative" id="man-show5">    
+                     <span class="material-symbols-outlined">explore</span>
+                     <span class="fs-6 none">Browse</span>
+                     <div class="man-drop5 position-absolute">
+                         <div class="point5 position-absolute"></div>
+                         <div class="main-man5 bg-white position-absolute">
+                             <div class="inp-cont mt-3 d-flex justify-content-between align-items-center">
+                                 <i class="fa-solid fa-magnifying-glass fs-3 ms-4"></i>
+                                 <input type="text" placeholder="Search Freelancers.com" class="h-100 fs-5 me-4">
+                             </div>
+                             <div class="search-drop mt-4">
+                                 <p class="fs-5 fw-bolder text-start">Search</p>
+                                <div class="search-col w-100 d-flex">
+                                     <div class="ic-wrd d-flex align-items-start w-25 justify-content-around">
+                                         <span class="material-symbols-outlined fs-2 text-primary">folder_check</span>
+                                         <div class="ic-wordn ms-2">
+                                             <h5 class="fs-6 text-start hov-blue">Projects</h5>
+                                             <p class="fs-6 text-start">Explore exciting new project opportunites now!</p>
+                                         </div>
+                                     </div>
+                                     <div class="ic-wrd d-flex align-items-start w-25 justify-content-around">
+                                         <span class="material-symbols-outlined fs-2 text-primary">emoji_events</span>
+                                         <div class="ic-wordn ms-2">
+                                             <h5 class="fs-6 text-start hov-blue">Contests</h5>
+                                             <p class="fs-6 text-start">Unleash your talent and win Freelancer contests!</p>
+                                         </div>
+                                     </div>  
+                                     <div class="ic-wrd d-flex align-items-start w-25 justify-content-around">
+                                         <span class="material-symbols-outlined fs-2 text-primary">account_circle</span>
+                                         <div class="ic-wordn ms-2">
+                                             <h5 class="fs-6 text-start hov-blue">Freelancers</h5>
+                                             <p class="fs-6 text-start">Find top-rated freelancers for your project</p>
+                                         </div>
+                                     </div>  
+                                     <div class="ic-wrd d-flex align-items-start w-25 justify-content-around">
+                                         <span class="material-symbols-outlined fs-2 text-primary">bookmark</span>
+                                         <div class="ic-wordn ms-2">
+                                             <h5 class="fs-6 text-start hov-blue">Bookmarks</h5>
+                                             <p class="fs-6 text-start">Access your saved project and contest opportunites</p>
+                                         </div>
+                                     </div>    
+                                </div>
+                             </div>
+                             <div class="search-drop mt-4">
+                                 <p class="fs-5 fw-bolder text-start">Freelancing Tools</p>
+                                <div class="search-col w-100 d-flex">
+                                     <div class="ic-wrd d-flex align-items-start w-25 justify-content-around">
+                                         <span class="material-symbols-outlined fs-2 text-primary">verified_user</span>
+                                         <div class="ic-wordn ms-2">
+                                             <p class="fs-6 text-start">Verified by Freelancer Increase your chances of winning projects</p>
+                                         </div>
+                                     </div>
+                                     <div class="ic-wrd d-flex align-items-start w-25 justify-content-around">
+                                         <span class="material-symbols-outlined fs-2 text-warning">star_rate</span>
+                                         <div class="ic-wordn ms-2">
+                                             <p class="fs-6 text-start">Preffered Freelancer Access exclusive project and stand out</p>
+                                         </div>
+                                     </div>  
+                                     <div class="ic-wrd d-flex align-items-start w-25 justify-content-around">
+                                         <img src="freecon.png" alt="">
+                                         <div class="ic-wordn ms-2">
+                                             <p class="fs-6 text-start">Membership Get earning opportunites and savings</p>
+                                         </div>
+                                     </div>  
+                                     <div class="ic-wrd d-flex align-items-start w-25 justify-content-around">
+                                         <span class="material-symbols-outlined fs-2 text-primary">school</span>
+                                         <div class="ic-wordn ms-2">
+                                             <h5 class="fs-6 text-start hov-blue">Exams</h5>
+                                             <p class="fs-6 text-start">Prove your skills to win more work</p>
+                                         </div>
+                                     </div>    
+                                </div>
+                             </div>
+                             <div class="search-drop mt-4">
+                                 <p class="fs-5 fw-bolder text-start">Client Tools</p>
+                                <div class="search-col w-100 d-flex">
+                                     <div class="ic-wrd d-flex align-items-start w-25 justify-content-around">
+                                         <i class="fa-solid fa-shield fs-4"></i>
+                                         <div class="ic-wordn ms-2">
+                                             <h5 class="fs-6 text-start hov-blue">Recruiter</h5>
+                                             <p class="fs-6 text-start">Get assistance finding the perfect freelancer</p>
+                                         </div>
+                                     </div>
+                                     <div class="ic-wrd d-flex align-items-start w-25 justify-content-around">
+                                         <i class="fa-solid fa-flag fs-4"></i>
+                                         <div class="ic-wordn ms-2">
+                                             <h5 class="fs-6 text-start hov-blue">Technical Co-pilot</h5>
+                                             <p class="fs-6 text-start">Our staff will ensure your project is a success</p>
+                                         </div>
+                                     </div>  
+                                     <div class="ic-wrd d-flex align-items-start w-25 justify-content-around">
+                                         <i class="fa-solid fa-globe fs-4 text-primary"></i>
+                                         <div class="ic-wordn ms-2">
+                                             <h5 class="fs-6 text-start hov-blue">Enterprise</h5>
+                                             <p class="fs-6 text-start">Turn your organization's ideas into reality</p>  
+                                         </div>
+                                     </div>  
+                                     <div class="ic-wrd d-flex align-items-start w-25 justify-content-around">
+                                         <i class="fa-solid fa-location-dot fs-4 text-primary"></i>
+                                         <div class="ic-wordn ms-2">
+                                             <h5 class="fs-6 text-start hov-blue">Local Jobs</h5>
+                                             <p class="fs-6 text-start">Get help in any location, anywhere in the world</p>
+                                         </div>
+                                     </div>    
+                                </div>
+                             </div>
+                             <div class="search-drop my-4">
+                                 <p class="fs-5 fw-bolder text-start">Explore Freelancer</p>
+                                <div class="search-col w-100 d-flex">
+                                     <div class="ic-wrd d-flex align-items-start w-25 justify-content-around">
+                                         <span class="material-symbols-outlined fs-2 text-warning">diamond</span>
+                                         <div class="ic-wordn ms-2">
+                                             <h5 class="fs-6 text-start hov-blue">Showcase</h5>
+                                             <p class="fs-6 text-start">Get inpiration from the world's best</p>
+                                         </div>
+                                     </div>
+                                     <div class="ic-wrd d-flex align-items-start w-25 justify-content-around">
+                                         <span class="material-symbols-outlined fs-2 text-primary">event_note</span>
+                                         <div class="ic-wordn ms-2">
+                                             <h5 class="fs-6 text-start hov-blue">Community</h5>
+                                             <p class="fs-6 text-start">Browse resources for your business and career</p>
+                                         </div>
+                                     </div>  
+                                     <div class="ic-wrd d-flex align-items-start w-25 justify-content-around">
+                                         <span class="material-symbols-outlined fs-2 text-success">group</span>
+                                         <div class="ic-wordn ms-2">
+                                             <h5 class="fs-6 text-start hov-blue">Discover</h5>
+                                             <p class="fs-6 text-start">Discover featured works from our best freelancers</p>
+                                         </div>
+                                     </div>  
+                                     <div class="ic-wrd d-flex align-items-start w-25 justify-content-around">
+                                         <span class="material-symbols-outlined fs-2 text-primary">help</span>
+                                         <div class="ic-wordn ms-2">
+                                             <h5 class="fs-6 text-start hov-blue">Customer Support</h5>
+                                             <p class="fs-6 text-start">Browse the help center or get in touch with us</p>
+                                         </div>
+                                     </div>    
+                                </div>
+                             </div>
+                         </div>
+                     </div>
+                 </button>
+                 <button class="nav-btn2 btn d-flex align-items-center justify-content-evenly d-lg-flex d-md-flex d-none position-relative" id="man-show">
+                     <span class="material-symbols-outlined">work</span>
+                     <span class="fs-6 none">Manage</span>
+                     <div class="man-drop position-absolute">
+                         <div class="point position-absolute"></div>
+                         <div class="main-man bg-white position-absolute">
+                             <div class="mana1 d-flex justify-content-between align-items-center mt-4">
+                                 <p class="fs-6 fw-bolder">Recent Projects</p>
+                                 <a href="" class="fs-6">View All</a>
+                             </div>
+                             <div class="mana2 mt-2">
+                                 <label>You do not have any active projects.</label>
+                                 <p><a href="">Create one</a> to get started!</p>
+                             </div>
+                             <div class="mana1 d-flex justify-content-between align-items-center mt-3">
+                                 <p class="fs-6 fw-bolder ms-2">Lists</p>
+                                 <a href="" class="fs-6">View All</a>
+                             </div>
+                             <div class="mana3 d-flex align-items-center">
+                                 <div class="hov-grey"></div>
+                               <div class="icon-love d-flex align-items-center">
+                                 <i class="fa-regular fa-heart fs-5 ms-3"></i>
+                                 <p class="fs-6 ms-6 mt-3">Favorite</p>
+                               </div>
+                             </div>
+                             <div class="mana3 d-flex align-items-center">
+                                 <div class="hov-grey"></div>
+                                 <div class="icon-love d-flex align-items-center">
+                                     <i class="fa-solid fa-briefcase fs-5 ms-3"></i>
+                                 <p class="fs-6 ms-6 mt-3">My Hires</p>
+                                 </div>
+                             </div>
+                             <div class="mana3 d-flex align-items-center">
+                                 <div class="hov-grey"></div>
+                                 <div class="icon-love d-flex align-items-center">
+                                     <i class="fa-regular fa-eye fs-5 ms-3"></i>
+                                     <p class="fs-6 ms-6 mt-3">Recently Viewed</p> 
+                                 </div>
+                             </div>
+                             <div class="mana1 d-flex justify-content-between align-items-center mt-3">
+                                 <p class="fs-6 fw-bolder">Tasklists</p>
+                                 <a href="" class="fs-6">View All</a>
+                             </div>
+                             <div class="mana3 d-flex align-items-center">
+                                 <div class="hov-grey"></div>
+                                 <div class="icon-love d-flex align-items-center">
+                                     <i class="fa-solid fa-list-check fs-5 ms-3"></i>
+                                     <p class="fs-6 ms-3 mt-3">@tasklists</p> 
+                                 </div>
+                             </div>
+                             <div class="mana1 d-flex justify-content-between align-items-center mt-4">
+                                 <p class="fs-6 fw-bolder">Project Updates</p>
+                                 <a href="" class="fs-6">View All</a>
+                             </div>
+                             <div class="mana2 mt-2">
+                                 <label>You do not have any active projects.</label>
+                                 <p><a href="">Browse projects</a> to start work and give updates</p>
+                             </div>
+                         </div>
+                     </div>
+                 </button>
+                 <button class="nav-btn2 btn d-flex align-items-center justify-content-evenly d-lg-flex d-md-flex d-none">
+                     <span class="material-symbols-outlined">group</span>
+                     <span class="fs-6 none">Groups</span>
+                 </button>
+             </div>
+             <div class="nothing"></div>
+             <div class="nxt-cont h-100 d-flex">
+                 <button class="nav-btn3 btn ms-2 d-flex align-items-center justify-content-evenly d-lg-none d-md-none">
+                     <span class="material-symbols-outlined cha fs-3">info</span>
+                 </button>
+                 <button class="nav-btn3 btn ms-2 d-flex align-items-center justify-content-evenly position-relative" id="man-show1">
+                     <span class="material-symbols-outlined cha fs-3">notifications</span>
+                     <div class="man-drop1 position-absolute">
+                         <div class="point1 position-absolute"></div>   
+                         <div class="main-man1 bg-white position-absolute">
+                             <div class="mana1 d-flex justify-content-between align-items-center mt-4">
+                                 <p class="fs-6 fw-bolder">Notifications</p>
+                             </div>
+                             <i class="fa-regular fa-bell-slash text-primary"></i>
+                             <p class="mt-4">You don't have any notifications as of this moment. <br>
+                                 Would you like to search for a project instead?</p>
+                                 <div class="btn fs-6 fw-bolder btn-proj">Search Project</div>
+                         </div>
+                     </div>
+                 </button>
+                 <button class="nav-btn3 btn ms-2 d-flex align-items-center justify-content-evenly position-relative" id="man-show3">
+                     <span class="material-symbols-outlined cha fs-3">folder_open</span>
+                     <div class="man-drop3 position-absolute">
+                         <div class="point3 position-absolute"></div>   
+                         <div class="main-man3 bg-white position-absolute">
+ 
+                         </div>
+                     </div>
+                 </button>
+                 <button class="nav-btn3 btn ms-2 d-flex align-items-center justify-content-evenly position-relative" id="man-show2">
+                     <span class="material-symbols-outlined cha fs-3">chat_bubble</span>
+                     <div class="man-drop2 position-absolute">
+                         <div class="point2 position-absolute"></div>   
+                         <div class="main-man2 bg-white position-absolute">
+                             <div class="mana1 d-flex justify-content-between align-items-center mt-4">
+                                 <p class="fs-6 fw-bolder">Recent Messages</p>
+                                 <a href="" class="fs-6">View All</a>
+                             </div>
+                              <img src="live-chat (1).svg" class="mess" alt=""><br>
+                              <label>Start connecting with others by <a href="">browsing</a> or <a href="">posting a <br> project</a></label>
+                         </div>
+                     </div>
+                 </button>
+             </div>
+             <div class="hide-not"></div>
+            <div class="last-end align-items-center h-100 d-lg-flex d-md-flex d-none">
+                 <div class="pink-btn ms-2">
+                     <button class="nav-btn4 btn d-flex align-items-center justify-content-evenly ">
+                         <span class="text-white fw-bolder">Post a Project</span>
+                     </button>
+                 </div>
+                 <div class="lst-btn ms-2 h-100 d-flex position-relative" id="man-show4">
+                     <button class="btn prof-btn d-flex align-items-center h-100">
+                         <div class="pic"></div>
+                         <div class="prof-word d-flex flex-column align-items-start">
+                             <span class="text-white fw-bold ms-2">@Adedayo</span>
+                             <span class="text-white fw-bold ms-2">$1000.00 USD</span>
+                         </div>
+                         <div class="man-drop4 position-absolute">
+                             <div class="point4 position-absolute"></div>   
+                             <div class="main-man4 bg-white position-absolute">
+                                 <p class="fs-5 fw-bolder my-4 text-start ms-4">Account</p>
+                                 <p class="text-start ms-4 fs-6 w-75 hov-prof"><a href="nexpage.html" class="hov-orf">View Profile</a></p>
+                                 <p class="text-start ms-4 fs-6 w-75 hov-prof"><a href="membership.html" class="hov-orf">Membership</a></p>
+                                 <p class="text-start ms-4 fs-6 w-75 hov-prof"><a href="" class="hov-orf">Account Analytics</a></p>
+                                 <p class="text-start ms-4 fs-6 w-75 hov-prof"><a href="" class="hov-orf">Bid Insight</a></p>
+                                 <p class="text-start ms-4 fs-6 w-75 hov-prof"><a href="" class="hov-orf">Settings</a></p>
+                                 <p class="fs-5 fw-bolder my-4 text-start ms-4">Finances</p>
+                                 <div class="balance d-flex justify-content-between">
+                                     <p class="text-start ms-4 fs-6 w-50"><a href="" class="hov-orf">Balance</a></p>
+                                     <p class="me-4">$1000.00 USD</p>
+                                 </div>
+                                 <p class="text-start ms-4 fs-6 w-75 hov-prof"><a href="" class="hov-orf">Add funds</a></p>
+                                 <p class="text-start ms-4 fs-6 w-75 hov-prof"><a href="" class="hov-orf">Withdraw funds</a></p>
+                                 <p class="text-start ms-4 fs-6 w-75 hov-prof"><a href="" class="hov-orf">Transaction history</a></p>
+                                 <p class="text-start ms-4 fs-6 w-75 hov-prof"><a href="" class="hov-orf">Financial Dashboard</a></p>
+                                 <p class="text-start ms-4 fs-6 w-75 hov-prof"><a href="" class="hov-orf">Payment sharing</a></p>
+                                 <p class="text-start ms-4 fs-6 w-75 hov-prof"><a href="" class="hov-orf">Support</a></p>
+                                 <p class="text-start ms-4 fs-6 w-75 hov-prof"><a href="login.html" class="hov-orf">Logout</a></p>
+                                 <p>App: 52c5b5b (1728954168 / 2024-10-14)</p>
+                             </div>
+                         </div>
+                     </button>
+                 </div>
+            </div>
+        </div>
+     </nav>
+
+
+     <div class="scroll-nav w-100 justify-content-center align-items-center">
+        <div class="scroll-cont h-100 d-flex align-items-center">
+            <button class="btn d-flex align-items-center justify-content-evenly h-100 down-btn" autofocus>
+                <span  class="fs-6 mx-2 text-white d-flex spann"><a href="nexpage.html">Dashboard</a></span>
+            </button>
+            <button class="btn d-flex align-items-center justify-content-evenly h-100 down-btn">
+                <span class="fs-6 mx-2 text-white d-flex spann">Lists</span>
+            </button>
+            <button class="btn d-flex align-items-center justify-content-evenly h-100 down-btn">
+                <span class="fs-6 mx-2 text-white d-flex spann">Tasklists</span>
+            </button>
+            <button class="btn d-flex align-items-center justify-content-evenly h-100 down-btn">
+                <span class="fs-6 mx-2 text-white d-flex spann">My Projects</span>
+            </button>
+            <button class="btn d-flex align-items-center justify-content-evenly h-100 down-btn">
+                <span class="fs-6 mx-2 text-white d-flex spann">Inbox</span>
+            </button>
+            <button class="btn d-flex align-items-center justify-content-evenly h-100 down-btn">
+                <span class="fs-6 mx-2 text-white d-flex spann">Feedback</span>
+            </button>
+            <button class="btn d-flex align-items-center justify-content-evenly h-100 down-btn">
+                <span class="fs-6 mx-2 text-white d-flex spann">Free Credit</span>
+            </button>
+            <button class="btn d-flex align-items-center justify-content-evenly h-100 down-btn">
+                <span class="fs-6 mx-2 text-white d-flex spann">Project Updates</span>
+            </button>
+        </div>
+    </div>
+
+    <div class="biggdiv">
+        <div class="minidiv">
+            <div class="onediv">
+                <b>Upload cover Photo</b>
+            </div>
+            <div class="onediv">
+                <b>View client Profile</b>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="about">
+        <div>
+            <img src="IMG_E0806.JPG" alt="">
+        </div>
+    </div>
+
+    
+    
+</body>
+</html>

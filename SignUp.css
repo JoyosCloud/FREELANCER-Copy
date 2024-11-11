@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: fit-content;
+}
+.parent{
+    width: 100%;
+    display: flex;
+}
+
+.firstdiv{
+    background-color: aqua;
+    width: 70%;
+    height: fit-content;
+}
+
+.pagediv{
+    background-color: brown;
+    width: 40%;
+    height: 700px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.seconddiv{
+    background-color: black;
+    width: 30%;
+    height: 100vh;
+    /* position: fixed; */
+    /* right: 0; */
+}
+
+.seconddiv{
+    background-image: url(bird.webp);
+    background-size: cover;
+}
+
+
+.logo{
+    /* background-color: ae; */
+    width: 120px;
+    height: 50px;
+    margin-left: 33%;
+}
+
+.paragra1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    margin-left: 40%;
+    margin-top: 20px;
+}
+
+button{
+    background-color: white;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border: none;
+    border: 0.5px grey solid;
+    border-radius: 5px;
+}
+
+.icon{
+    width: 25px;
+    height: 25px;
+    margin-left: 5px;
+}
+
+.ref{
+    margin-left: 92px;
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-weight: 600; */
+}
+
+.ordiv{
+    /* background-color: darkblue; */
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ordiv hr{
+    width: 40%;
+}
+
+.namedivparent{
+    /* background-color:yellow ; */
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 0.5px solid blue; */
+    
+}
+
+.namediv{
+    background-color: white;
+    width: 160px;
+    
+    height: 50px;
+    border: 1px solid;
+    border-radius: 5px;
+
+}
+
+/* input{/ */
+    height: 40px;
+    width: 88%;
+    margin-left: 5px;
+    border: none;
+    outline: none;
+}
+
+    .inputt{
+        width: 300px;
+        height: 40px;
+        margin-left: 5px;
+        outline: none;
+        border: none;
+        background-color: aquamarine;
+    }
+    
+    /* .btn{ */
+        background-color: tomato;
+        width: 200px;
+        height: 35px;
+    }
+    
+    .btn:hover{
+        border: 0.5px solid blue;
+    }
+    
+    .btn:focus{
+        border: 0.5px solid blue;
+}
+
+.mail{
+    background-color: white;    
+    width: 100%;
+    height: 40px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.checkx{
+    width: 20px;
+    height: 15px;
+}
+
+.agree{
+    /* background-color: chartreuse; */
+    width: 377px;
+    height: 50px;
+    display: flex;
+    gap: 4px;
+}
+.word{
+    margin-left: 25px;
+    margin-top: -30px;
+}
+
+.freelancer{
+    background-color: rgb(23,114,235);
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+}
+
+.freelancer b{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    color: white;
+    margin: auto;
+}
+
+.para{
+    /* background-color: darkred; */
+    display: flex;
+    margin-left: 75px;
+    gap: 5px;
+}
+
+.para p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.para a{
+    text-decoration: none;
+    
+}
+
